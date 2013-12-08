@@ -21,7 +21,7 @@ classifiers = [
 setup(
     name='sphinxjp.themes.tinkerbelizehole',
     version=version,
-    description='A tinkerer theme like some famous blogging tool.',
+    description='* A single column blogging theme tool for Tinkerer, based on belizehole color.',
     long_description=long_description,
     classifiers=classifiers,
     keywords=['tinkerer', 'sphinxjp', 'reStructuredText', 'theme'],

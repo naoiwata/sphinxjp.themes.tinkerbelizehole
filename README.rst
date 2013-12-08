@@ -2,9 +2,6 @@
  sphinxjp.themes.tinkerbelizehole
 =================================
 
-Some famous blogging tool style for Tinkerer
-
-
 Output sample
 =============
 :output: http://naoiwata.bitbucket.org/demo/tinkerbelizehole/
@@ -12,14 +9,18 @@ Output sample
 
 Feature
 =======
-* provide tinkerer blog theme like some famous blogging tool
-
+* A single column blogging theme tool for Tinkerer, based on belizehole color.
 
 Installation
 ============
 Make environment with easy_install::
 
    $ easy_install sphinxjp.themes.tinkerbelizehole
+
+
+Make environment with pip::
+
+   $ pip sphinxjp.themes.tinkerbelizehole
 
 
 setup conf.py with::
@@ -37,7 +38,7 @@ Requirement
 ===========
 Libraries:
 
-* Python 2.4 or later (not support 3.x)
+* Python 2.4 or later
 * Sphinx 1.0.x or later.
 * Tinkerer 1.0.x or later.
 
@@ -46,7 +47,7 @@ Browsers:
 
 * Safari
 * Chrome
-* Firefox 10 or later
+* Firefox
 
 
 License
