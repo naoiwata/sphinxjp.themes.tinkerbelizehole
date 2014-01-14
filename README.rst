@@ -9,6 +9,7 @@ Output sample
 
 Feature
 =======
+
 * A single column blogging theme tool for Tinkerer, based on belizehole color.
 
 Installation
@@ -45,9 +46,10 @@ Libraries:
 
 Browsers:
 
-* Safari
+* Safari on iOS, Mac OS
+* Android Browser
 * Chrome
-* Firefox
+* Firefox 10 or later
 
 
 License
