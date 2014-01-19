@@ -175,7 +175,12 @@ article{
     border-radius: px;
 }
 
+article a {
+    text-decoration: underline;
+}
+
 article h1, article h1 a, .main-container article h1 {
+    text-decoration: none;
     color: #382a06 !important;
     font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     margin: 0 0 20px 0;
