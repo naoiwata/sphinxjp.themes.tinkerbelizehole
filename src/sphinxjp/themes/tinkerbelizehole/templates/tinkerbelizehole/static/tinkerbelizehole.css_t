@@ -207,6 +207,11 @@ article h4, article h5, article h6, article strong {
     line-height: 1.5em;
 }
 
+article a {
+    text-decoration: underline;
+    border: none;
+}
+
 div.admonition {
     background: #f8f8f8;
 }
