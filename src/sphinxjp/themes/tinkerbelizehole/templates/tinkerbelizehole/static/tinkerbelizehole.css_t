@@ -101,9 +101,27 @@ table p{
     color: #fafafa;
 }
 
-.footnote, .footnote tbody, .footnote th, .footnote td,
-.citation, .citation tbody, .citation th, .citation td{
+.footnote, .footnote tbody, .footnote th,
+.citation, .citation tbody, .citation th{
     border: none;
+}
+
+ .footnote td, .citation td {
+    border: none;
+    padding-top: 0;
+ }
+
+.archive a, .sp pre{
+    line-height: 1.4em;
+}
+
+.sp strong, span, var, em {
+    font-size: 14px;
+}
+
+pre span, pre var, pre em{
+    font-size: 13px;
+    line-height: 1.4em;
 }
 
 /*
@@ -254,7 +272,6 @@ article h4, article h5, article h6 {
 }
 
 article strong {
-    color: #5b4f2e !important;
     font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     line-height: 1.5em;
 }
@@ -390,10 +407,6 @@ aside section {
     list-style: none;
 }
 
-.year li {
-    height: 70px;
-}
-
 /*
  * SP
  */
@@ -445,7 +458,6 @@ aside section {
     width: 620px;
 }
 
-.sp #disqus_thread {
-    width: 580px;
-    overflow: hidden;
+.sp .year h2 a{
+    line-height: 1.5em;
 }

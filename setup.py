@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import os, sys
 
-version = '0.1.91'
+version = '0.1.92'
 long_description = '\n'.join([
         open(os.path.join("src", "README.txt")).read(),
         open(os.path.join("src", "AUTHORS.txt")).read(),
@@ -21,7 +21,7 @@ classifiers = [
 setup(
     name='sphinxjp.themes.tinkerbelizehole',
     version=version,
-    description='* A single column blogging theme tool for Tinkerer, based on belizehole color.',
+    description='A single column blogging theme tool for Tinkerer, based on belizehole color.',
     long_description=long_description,
     classifiers=classifiers,
     keywords=['tinkerer', 'sphinxjp', 'reStructuredText', 'theme'],
