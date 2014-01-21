@@ -93,6 +93,10 @@ table p{
     margin: 0;
 }
 
+table thead{
+    border-bottom: 2px solid #e6dfcb;
+}
+
 .label a{
     color: white;
 }
@@ -106,10 +110,10 @@ table p{
     border: none;
 }
 
- .footnote td, .citation td {
+.footnote td, .citation td {
     border: none;
     padding-top: 0;
- }
+}
 
 .archive a, .sp pre{
     line-height: 1.4em;
@@ -208,6 +212,7 @@ header h2 {
 }
 
 /* Content */
+
 span.title_tag, span.title_category{
     color: #3498db;
 }
