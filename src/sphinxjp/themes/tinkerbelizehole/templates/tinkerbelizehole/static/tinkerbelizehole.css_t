@@ -2,10 +2,6 @@
  * web font
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 /*!
  * Bootstrap v2.3.2
  *
@@ -32,21 +28,77 @@
 /*
  * Util
  */
+ body {
+     width: 100%;
+     background-color: #fafaf6;
+     line-height: 1.5em;
+     color: #343434;
+     font-size: 16px;
+     letter-spacing: 0.01em;
+     font-family: "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif;
+ }
+
+ p {
+     line-height: 1.6em;
+ }
+
+ * {
+     font-family: "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif;
+ }
+
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+     font-weight: 400;
+ }
+
+ h2, h2 .pre {
+     font-size: 24px;
+ }
+
+ h3, h3 .pre {
+     font-size: 22px;
+ }
+
+ h4, h4 .pre {
+     font-size: 22px;
+ }
+
+ li {
+     line-height: 1.6em;
+ }
 
 code,pre {
-    padding:0 3px 2px;font-family:Consolas,Monaco,Menlo,"Courier New",monospace;font-size:12px;color:#93A1A1;
+    padding:0 3px 2px;
+    font-family:Consolas,Monaco,Menlo,"Courier New",monospace;font-size:12px;color:#93A1A1;
 }
 
 code {
-    padding:2px 4px;color:#d14;white-space:nowrap;background-color:#f7f7f9;border:1px solid #e1e1e8
+    padding:2px 4px;color:#d14;
+    white-space:nowrap;
+    background-color:#f7f7f9;
+    border:1px solid #e1e1e8
 }
 
 pre {
-    display:block;padding:9.5px;ont-size:13px;line-height:20px;word-break:break-all;word-wrap:break-word;white-space:pre;white-space:pre-wrap;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px
+    display:block;
+    padding:9.5px;
+    font-size:13px;
+    line-height:20px;
+    word-break:break-all;
+    word-wrap:break-word;
+    white-space:pre;
+    white-space:pre-wrap;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
 }
 
 pre code {
-    padding:0;color:inherit;white-space:pre;white-space:pre-wrap;background-color:transparent;border:0
+    padding:0;
+    color:inherit;
+    white-space:pre;
+    white-space:pre-wrap;
+    background-color:transparent;
+    border:0
 }
 
 .pre-scrollable{
@@ -55,10 +107,6 @@ pre code {
 
 .highlight{
     -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
-}
-
-* {
-    line-height: 1.4em;
 }
 
 .admonition{
@@ -83,10 +131,6 @@ pre code {
     color: #a94442;
     background-color: #f2dede;
     border-color: #ebccd1;
-} 
-
-body {
-    font-size: 15px;
 }
 
 table p{
@@ -126,6 +170,7 @@ table thead{
 pre span, pre var, pre em{
     font-size: 13px;
     line-height: 1.4em;
+    font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
 }
 
 /*
@@ -143,13 +188,6 @@ a:hover, a:focus{
     ext-decoration: underline;
 }
 
-body {
-    width: 100%;
-    background-color:#fafaf6;
-    line-height: 1.4em;
-    color: #382a06;
-}
-
 #container, article, aside, header, footer {
     width: 100%;
     margin: 0 auto;
@@ -162,7 +200,7 @@ body {
     margin: 0 auto;
 }
 
-nav ul{ 
+nav ul{
     text-align: center;
     padding: 50px 0 0 0;
 }
@@ -177,7 +215,6 @@ nav li a,nav li a:hover{
     color: #3498db;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -186,18 +223,18 @@ nav li a,nav li a:hover{
 }
 
 header {
-    margin: 60px auto;
+    margin: 60px auto 20px auto;
     text-align: center;
 }
 
 header h1 a, header h1 a:hover{
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     border: none;
     color: #3498db;
     text-decoration: none;
     line-height: 1.5em;
     text-transform: uppercase;
     font-size: 42px;
+    font-weight: bold;
 }
 
 header h1 {
@@ -205,7 +242,6 @@ header h1 {
 }
 
 header h2 {
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
     color: #3498db;
     margin: 0 auto !important;
@@ -224,7 +260,6 @@ span.title_tag, span.title_category{
 /* body */
 
 div.timestamp {
-    font-family: 'Montserrat',sans-serif;
     color: #a18e5c;
 }
 
@@ -246,13 +281,11 @@ article{
 
 article h1, article h1 a, .main-container article h1 {
     color: #382a06 !important;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     margin: 0 0 20px 0;
 }
 
 article h2 {
     color: #5b4f2e !important;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     margin: 30px 0 10px 0;
     border-bottom: 1px dotted #e6dfcb;
     padding: 0 0 8px 0;
@@ -261,7 +294,6 @@ article h2 {
 
 article h3 {
     color: #5b4f2e !important;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     margin: 30px 0 10px 0;
     border-bottom: 1px dotted #e6dfcb;
     padding: 0 0 5px 0;
@@ -270,23 +302,13 @@ article h3 {
 
 article h4, article h5, article h6 {
     color: #5b4f2e !important;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     margin: 30px 0 20px 0;
     display: block;
     line-height: 1.5em;
 }
 
 article strong {
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     line-height: 1.5em;
-}
-
-.formula {
-    font-family: 'Open Sans';
-}
-
-.tags, .categories, .author, .comments {
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif
 }
 
 div.postmeta {
@@ -310,7 +332,6 @@ div.archive_link {
     margin-top: 30px;
     padding: 10px 0;
     text-align: center;
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
 }
 
 .related{
@@ -334,7 +355,7 @@ footer {
     padding: 15px 0 10px 0;
     font-size: 12px;
     color: #5b4f2e;
-    width: 800px;   
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -344,7 +365,6 @@ aside {
 }
 
 aside h1 {
-    font-family: 'Montserrat',"Georgia","Helvetica Neue", Arial, sans-serif;
     font-size: 30px;
 }
 
@@ -354,7 +374,7 @@ aside section {
 }
 
 #searchbox form {
-    background: #dbd6c9;
+    background: #fff;
     width: 220px;
 }
 
@@ -362,7 +382,6 @@ aside section {
     border: none;
     padding: 10px;
     outline:0;
-    font-family:'Montserrat', sans-serif;
     color: #3498db;
     background: none;
     width: 155px;
